@@ -1,0 +1,163 @@
+*
+{
+	box-sizing: border-box;
+}
+.box
+{
+ width:100%;
+ overflow: none;
+}
+.row{
+	width:100%;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family:comic sans ms,sans,helvetica;
+}
+h1
+{
+	font-size: 55px;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px 10px 10px 10px;
+}
+.title1
+{
+  font-size:20px;
+  text-align: center;
+  float:right;
+  overflow: none;
+  border:1px solid black;
+  
+  margin-left :36px;
+  margin-top: 0px;
+ 
+  font-weight: bold;
+  background-color:pink;
+  color:black;
+  width:100px;
+  height:30px;
+  position: relative;
+
+}
+
+.title2
+{
+	font-size:20px;
+    text-align: center;
+    float:right;
+    margin-left :36px;
+    margin-top: 0px;
+
+    border:1px solid black;
+    font-weight: bold;
+	background-color:#FF0000;
+	color:#ffff;
+	width:100px;
+    height:30px;
+    position: relative;
+}
+.title3
+{
+   font-size:20px;
+   text-align: center;
+   float:right;
+   width:100px;
+   height:30px;
+   border:1px solid black;
+   font-weight: bold;
+   background-color: #FFEAA1;
+   color:black;
+   position: relative;
+   margin-left :36px;
+   margin-top:0;
+
+ 
+
+}
+.content1
+{
+background-color:#afb3ba;
+border: 1px solid black;
+position:relative;
+color:black;
+width:90%;
+height: auto;
+margin:1%;
+padding:0.15%;
+float:left;
+
+
+}
+.content2
+{
+background-color:#afb3ba;
+border: 1px solid black;
+position: relative;
+color:black;
+width:90%;
+height:auto;
+margin:1%;
+padding:0.15%;
+float:left;
+clear:left;
+
+
+}
+@media (min-width:992px)
+{
+	
+  .content1{
+    width: 30%;
+    float: left;
+    margin-left:30px;
+
+  
+  }
+  .content2
+  {
+    width: 30%;
+    clear:right; 
+  }
+  
+}
+@media (min-width:768px) and (max-width: 991px) {
+    
+ .content2
+ {
+ 	width: 97.77%;
+ 	clear:left;
+  margin-right:10px;
+ }
+ .content1
+ {
+ 	width:48%;
+ 	margin-right:1%;
+ 	float:left;
+ 	
+ }
+  
+
+}
+
+@media(max-width: 767px)
+{
+	.content1
+	{
+		width:97.77%;
+		float:left;
+		margin-right: 10px;
+		
+	}
+	.content2
+	{
+		width: 97.77%;
+		float:left;
+    margin-right: 10px;
+		
+		
+
+	}
+}
