@@ -1,0 +1,82 @@
+body {
+  font-size: 16px;
+  color:black;
+  background-color:white;
+  font-family: "COMIC sans ms",sans;
+  color:black;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color:#afb3ba;
+  border-radius: 0;
+  border:1px solid black;
+  color:black;
+}
+
+
+.navbar-brand h1 { 
+  font-family: "comic sans ms",sans;
+  color:black;
+  font-size:25px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+}
+.navbar-brand a:hover {
+  text-decoration: none;
+  color:black;
+}
+.menu-item
+{
+  background-color: white;
+  border:1px solid black;
+  color:black;
+  
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+
+  
+}
+.menu-item a:hover
+{
+  background:black;
+  
+  text-decoration: none;
+}
+.nav
+{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.heading
+{
+  color:black;
+  font-size:30px;
+  margin-bottom: 10px;
+  
+}
+.content{
+  border:1px solid black;
+  width:100%;
+  height:auto;
+  margin-bottom:10px;
+  background-color:#afb3ba;
+  color:black;
+  font-size:20px;
+  padding: 5px;
+}
+.content-title
+{
+  color:black;
+  font-family: comic sans ms;
+  font-size: 20px;
+  font-weight: bold;
+
+}
